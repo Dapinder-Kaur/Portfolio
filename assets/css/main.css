@@ -1446,7 +1446,7 @@ section,
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
-  justify-items: left;
+  justify-items: center;
   padding-top: 20px;
 }
 
@@ -1454,7 +1454,7 @@ section,
 .skill-card {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   text-align: center;
   padding: 15px;
   transition: transform 0.3s ease;
