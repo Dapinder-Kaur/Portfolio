@@ -1446,7 +1446,7 @@ section,
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
-  justify-items: center;
+  justify-items: left;
   padding-top: 20px;
 }
 
@@ -1462,8 +1462,8 @@ section,
 
 /* THE FIX: Controlling the icon size */
 .skill-card img {
-  width: 80px;  /* Adjust this value to make them smaller or larger */
-  height: 80px; /* Keeping height/width the same maintains aspect ratio */
+  width: 100px;  /* Adjust this value to make them smaller or larger */
+  height: 100px; /* Keeping height/width the same maintains aspect ratio */
   margin-bottom: 10px;
   object-fit: contain;
 }
